@@ -1,0 +1,22 @@
+@import url(_reset.css);
+@import url(_menu.css);
+@import url(_bannerMain.css);
+@import url(_popUp.css);
+@import url(_mediaQuery.css);
+.contenedor_menu {
+  background-color: black; }
+
+.contenedor_enlaces_menu .clicktoCall {
+  background-color: red; }
+
+.contenedor_enlaces_menu .clicktoCall:hover {
+  background-color: #ff6767;
+  -webkit-transition: .2s ease all;
+  -o-transition: .2s ease all;
+  transition: .2s ease all; }
+
+.contenedor_enlaces_menu .nav-item {
+  color: #bcbcbc; }
+
+.contenedor_enlaces_menu .nav-item:hover {
+  color: red; }

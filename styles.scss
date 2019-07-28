@@ -1,0 +1,31 @@
+$color-primario: red;
+$color_secundario: black;
+$red-light: rgb(255, 103, 103);
+$black-light: #313131;
+
+@import "_reset.css";
+@import "_menu.css";
+@import "_bannerMain.css";
+@import "_popUp.css";
+@import "_mediaQuery.css";
+
+.contenedor_menu{
+    background-color: $color-secundario;
+
+}
+.contenedor_enlaces_menu .clicktoCall{
+    background-color: $color-primario;
+
+}
+.contenedor_enlaces_menu .clicktoCall:hover{
+    background-color: $red-light;
+    transition: .2s ease all;
+
+}
+.contenedor_enlaces_menu .nav-item{
+    color: #bcbcbc;   
+}
+.contenedor_enlaces_menu .nav-item:hover{
+    color: $color-primario;
+}
+

@@ -1,0 +1,35 @@
+.banner-portada{
+    height: 400px;
+    background: url(../images/portada-tippin-exotic-bulldog.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    text-align: center;
+    text-transform: uppercase;
+}
+.contenido-banner-centrado{
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.contenido-portada{
+    padding: 1rem;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.54)
+}
+.contenido-portada h1{
+    font-size: 56px;
+    font-weight: 800;
+    color: white;    
+}
+.contenido-portada h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 300;
+    color: white;
+    
+}
