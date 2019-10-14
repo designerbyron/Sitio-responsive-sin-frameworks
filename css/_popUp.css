@@ -50,13 +50,13 @@ Stylos Overlay
     margin-bottom: 40px;
 }
 .inputs{
-    padding: 5px; 
+    padding: 5px;
     box-sizing: border-box;
     width: 100%;
     display: block;
 }
-.inputs input{
- 
+.inputs input, textarea{
+
     width: 90%;
     height: 50px;
     line-height: 50px;
@@ -66,14 +66,20 @@ Stylos Overlay
     margin-bottom: 5px;
     border: 1px solid #c9c9c9;
     text-align: center;
-    
+
+}
+.inputs textarea{
+  max-width: 90%;
+  min-width: 90%;
+  min-height: 100px;
+  max-height: 120px;
 }
 .inputs small{
     font-size: 12px;
     display: block;
     margin-bottom: 20px;
     color: red;
-    
+
 }
 .form{
     text-align: center;
@@ -85,12 +91,12 @@ Stylos Overlay
     color: white;
     cursor: pointer;
     transition: .3s ease all;
-    
+
 }
 .btn-enviar:hover{
     background-color: rgb(127, 122, 240);
     transition: .3s ease all;
-    
+
 }
 /*other styles here*/
 .navegacion_movil{
